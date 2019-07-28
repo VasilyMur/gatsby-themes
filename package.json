@@ -1,0 +1,9 @@
+{
+  "name": "gatsby-themes",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "site",
+    "packages/*"
+  ]
+}

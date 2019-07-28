@@ -1,0 +1,17 @@
+---
+title: 'Front Page'
+description: 'Check out this cool page with hello statement to all programmers out there!'
+canonical: 'canonical'
+---
+import Box from '../components/box'
+import Seo from '../components/Seo'
+
+<Seo frontmatter={props.pageContext.frontmatter}/>
+
+# Hello Programmer!
+
+This is some regular content
+
+<Box>That's some special content that has to be wrapped in a box</Box>
+
+This content does not
